@@ -14,7 +14,7 @@ const Hero =() => {
                 <div className="teach-icon">
                     <img src="https://static-00.iconduck.com/assets.00/react-javascript-js-framework-facebook-icon-2048x1822-f7kq7hho.png" alt="" />
                 </div>
-                <img style={{width: "350px", height: '300px', objectFit: 'cover', borderRadius: '15px'}} src="https://i.ibb.co/Jxd2XSs/protfolio-profile-pic.jpg" alt="" />
+                <img style={{width: "350px", height: '300px', objectFit: 'cover', borderRadius: '15px'}} src="https://iili.io/JwFqHj2.jpg" alt="" />
             </div>
            <div>
            <div className='teach-icon'>
