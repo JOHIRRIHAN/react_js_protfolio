@@ -1,4 +1,4 @@
-import React from 'react'
+// import React from 'react'
 import './ContactMe.css'
 import ContactInfoCard from '../ContactMe/ContactInfoCard/ContactInfoCard'
 import ContactForm from './ContactForm/ContactForm'

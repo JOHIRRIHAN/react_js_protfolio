@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-unused-vars
 import React, { useRef } from 'react'
 import './WorkExperience.css'
 import {WORK_EXPERIENCE} from '../utils/data'
@@ -41,10 +42,10 @@ const WorkExperience = () => {
         <h5>Work Experience</h5>
         <div className="experience-content">
             <div className="arrow-right" onClick={slideRight}>
-                <span class='material-symbols-outlined'><IoIosArrowForward /></span>
+                <span className='material-symbols-outlined'><IoIosArrowForward /></span>
             </div>
             <div className="arrow-left" onClick={slideLeft}>
-                <span class='material-symbols-outlined'><IoIosArrowBack /></span>
+                <span className='material-symbols-outlined'><IoIosArrowBack /></span>
             </div>
 
             <Slider ref={slideRef} {...settings}>

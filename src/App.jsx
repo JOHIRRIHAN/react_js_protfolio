@@ -1,6 +1,7 @@
+/* eslint-disable no-unused-vars */
 import React from 'react';
 import './App.css'
-import Navbar from './Components/Navbar/navbar';
+import Navbar from './Components/Navbar/Navbar';
 import Hero from './Components/Navbar/Hero/Hero';
 import Skills from './Components/Navbar/Skills/Skills';
 import WorkExperience from './Components/Navbar/WorkExperience/WorkExperience';

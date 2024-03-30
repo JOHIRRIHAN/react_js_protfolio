@@ -1,18 +1,20 @@
-import React from 'react'
+// import React from 'react'
 import './Hero.css'
 const Hero =() => {
   return (
     <section className='hero-container'>
         <div className="there">
-            <h2>Hi There!! <br />This is <br /> Johir Rihan.</h2>
+            <h2>Hi There!! <br />This is <br /> <span style={{color: '#6852ba'}}>Johir Rihan.</span></h2>
             <p>I am a Front End Developer <strong>AND</strong> <span>I am Expert In  React js || Tailwind CSS || HTML5 || CSS3 || JavaScript || jQuery || Bootstrap5</span></p>
+
+            <button className='hero-button'>See My Work</button>
         </div>
         <div className="hero-img">
             <div>
                 <div className="teach-icon">
                     <img src="https://static-00.iconduck.com/assets.00/react-javascript-js-framework-facebook-icon-2048x1822-f7kq7hho.png" alt="" />
                 </div>
-                <img src="./public/images/hero2.jpg" alt="" />
+                <img style={{width: "350px", height: '300px', objectFit: 'cover', borderRadius: '15px'}} src="https://i.ibb.co/Jxd2XSs/protfolio-profile-pic.jpg" alt="" />
             </div>
            <div>
            <div className='teach-icon'>

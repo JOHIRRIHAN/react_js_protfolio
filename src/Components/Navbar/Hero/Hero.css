@@ -29,7 +29,7 @@
 .there h2{
     font-size: 3rem;
     font-weight: 600;
-    line-height: 5rem;
+    line-height: 3rem;
     margin-bottom: 1rem;
 }
 .there{
@@ -42,9 +42,10 @@
     line-height: 2rem;
 }
 .hero-content h2{
+    padding: 20px;
     font-size: 2.8rem;
     font-weight: 600;
-    line-height: 5rem;
+    line-height: 2rem;
     margin-bottom: 1rem;
 }
 .hero-content p{
@@ -52,6 +53,27 @@
     font-size: 1rem;
     font-weight: 400;
     line-height: 2rem;
+}
+.hero-container .hero-button:hover{
+    color: #a993fe;
+    background: #000;
+    border: 1px solid #a993fe;
+}
+.hero-container .hero-button{
+    margin-top: 20px;
+    background: linear-gradient(90deg, #a993fe 0%, #7e61e7 100%);
+    padding: 0.6rem 2rem;
+    border: none;
+    outline: 1.5px solid transparent;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+    font-weight: 500;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
 }
 .hero-img{
     flex: 1;
